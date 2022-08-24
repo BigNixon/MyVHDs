@@ -1,0 +1,52 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/muxTB/genericMuxTB.mpf
+# Loading project genericMuxTB
+# 0 compiles, 3 failed with no errors.
+# Compile of genericMux.vhd failed with 2 errors.
+# Compile of genericMuxTB.vhd failed with 2 errors.
+# Compile of muxPackage.vhd failed with 2 errors.
+# 3 compiles, 3 failed with 6 errors.
+# Compile of muxPackage.vhd failed with 2 errors.
+# Compile of muxPackage.vhd failed with 2 errors.
+# Compile of muxPackage.vhd failed with 2 errors.
+# Compile of muxPackage.vhd failed with 2 errors.
+# Compile of muxPackage.vhd was successful.
+# Compile of genericMuxTB.vhd was successful.
+# Compile of genericMux.vhd was successful.
+vsim -gui work.muxpackage
+# vsim -gui work.muxpackage 
+# Start time: 11:51:48 on Aug 24,2022
+# ** Fatal: (vsim-3370) Design unit 'muxpackage' (VHDL PACKAGE) is not allowed at the top level.
+#    Time: 0 ps  Iteration: 0  Root: / File: NOFILE
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 11:51:48 on Aug 24,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of genericMux.vhd was successful.
+# Compile of genericMuxTB.vhd was successful.
+# Compile of muxPackage.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.genericmuxtb(sim)
+# vsim -gui work.genericmuxtb(sim) 
+# Start time: 11:54:01 on Aug 24,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.muxpackage(body)
+# Loading work.genericmuxtb(sim)
+# Loading work.genericmux(rtl)
+add wave -position end  sim:/genericmuxtb/sdataI
+add wave -position end  sim:/genericmuxtb/ssel
+add wave -position end  sim:/genericmuxtb/sdataO
+run
+# ** Note: ================initializing the loop of test================
+#    Time: 0 ps  Iteration: 0  Instance: /genericmuxtb
+run
+run
+run
+run
+run
+run
+run
+# End time: 11:58:55 on Aug 24,2022, Elapsed time: 0:04:54
+# Errors: 0, Warnings: 0

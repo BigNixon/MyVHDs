@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.muxPackage.all;
+
+entity genericMux is
+    generic(
+        DATAWITH : integer;
+        MUXWIDTH:  integer
+    );
+    port (
+        dataI : in mux_array(0 to MUXWIDTH-1)(DATAWITH-1 downto 0);
+        sel   : in integer range 0 to MUXWIDTH-1;
+        dataO : out std_logic_vector(DATAWITH-1 downto 0)
+    );
+end genericMux;
+
+architecture rtl of genericMux is
+
+begin
+    dataO <= dataI(sel);
+end architecture;

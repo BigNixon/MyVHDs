@@ -1,0 +1,132 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/proyectos/FPGA Proyecto FinCYT_copia0/sbaproject/SSTACM_Atlas
+Egenericmux
+Z0 w1661359781
+Z1 DPx4 work 10 muxpackage 0 22 IHc10WNIdH2IVX?9b[QOU3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/muxTB
+Z5 8C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/genericMux.vhd
+Z6 FC:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/genericMux.vhd
+l0
+L5
+VDcR2AG8z@J?mU5BHmYjW:1
+!s100 GiK2m=HlY5AbLi[8?5E8D0
+Z7 OV;C;10.5b;63
+33
+Z8 !s110 1661360030
+!i10b 1
+Z9 !s108 1661360030.000000
+Z10 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/genericMux.vhd|
+Z11 !s107 C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/genericMux.vhd|
+!i113 1
+Z12 o-work work -2008 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+Z14 DEx4 work 10 genericmux 0 22 DcR2AG8z@J?mU5BHmYjW:1
+l19
+L17
+VmZ76?aBIo[26Cz?g8b_hz3
+!s100 HE=h@_aClI_YIfFo<PaJG1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Egenericmuxtb
+Z15 w1648590465
+R1
+R2
+R3
+R4
+Z16 8C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/genericMuxTB.vhd
+Z17 FC:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/genericMuxTB.vhd
+l0
+L5
+VVfzzeWXjTOgIT4AaHP8YR3
+!s100 ;4W9DzQ_KS=DG9:cg74j]3
+R7
+33
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/genericMuxTB.vhd|
+Z19 !s107 C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/genericMuxTB.vhd|
+!i113 1
+R12
+R13
+Asim
+R14
+R1
+R2
+R3
+DEx4 work 12 genericmuxtb 0 22 VfzzeWXjTOgIT4AaHP8YR3
+l14
+L8
+V1h;Wz^mQKR[Ph0B;DSYVk2
+!s100 ^Bg_X4O?kaZC;e9YAO:X52
+R7
+33
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13
+Pmuxpackage
+R2
+R3
+Z20 w1661359826
+R4
+Z21 8C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/muxPackage.vhd
+Z22 FC:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/muxPackage.vhd
+l0
+L4
+VIHc10WNIdH2IVX?9b[QOU3
+!s100 AK`^67NcXzRBSUzPBY1nJ1
+R7
+33
+R8
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/muxPackage.vhd|
+Z24 !s107 C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/muxPackage.vhd|
+!i113 1
+R12
+R13
+Bbody
+R1
+R2
+R3
+l0
+L11
+Z25 VCoZ:WbYX_RYU[1K^5L`^72
+Z26 !s100 O@ec`O9Tc;]30Th2;m3;M3
+R7
+33
+R8
+!i10b 1
+R9
+R23
+R24
+!i113 1
+R12
+R13

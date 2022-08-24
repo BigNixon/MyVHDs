@@ -1,0 +1,19 @@
+C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/muxPackage.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/muxPackage.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package muxPackage
+-- Compiling package body muxPackage
+-- Loading package muxPackage
+
+} {} {}} C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/genericMux.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/MyVhds/Muxs/genericMux/genericMux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package muxPackage
+-- Compiling entity genericMux
+-- Compiling architecture rtl of genericMux
+
+} {} {}}

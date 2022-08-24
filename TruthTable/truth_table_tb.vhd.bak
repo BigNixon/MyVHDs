@@ -1,0 +1,55 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+use std.textio.all;
+use std.env.finish;
+
+entity truth_table_tb is
+end truth_table_tb;
+
+architecture sim of truth_table_tb is
+    signal in_dut: std_logic_vector(3 downto 0);
+    signal out_dut:std_logic;
+begin
+
+        DUT : entity work.truth_table(beh)
+    generic map(
+        truth_vector=>"101010101010101"
+    )
+    port map (
+        table_in =>in_dut,
+        table_out =>out_dut,
+    );
+
+    SEQUENCER_PROC : process
+    begin
+       
+        
+        in_dut <= "0000";
+        report "0 case";
+        wait for 10 ns;
+
+
+        in_dut <= "0010";
+        report "2 case";
+        wait for 10 ns;
+
+
+        in_dut <= "0000";
+        report "1 case";
+        wait for 10 ns;
+
+
+        in_dut <= "0101";
+        report "5 case";
+        wait for 10 ns;
+
+
+        in_dut <= "1111";
+        report "15 case";
+        wait for 10 ns;
+
+    end process;
+
+end architecture;

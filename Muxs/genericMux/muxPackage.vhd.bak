@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+package muxPackage is
+
+    type mux_array is array (integer <>) of std_logic_vector;
+
+end muxPackage;
+
+
+package body muxPackage is
+end package body;
